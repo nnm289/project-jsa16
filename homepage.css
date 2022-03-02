@@ -1,0 +1,254 @@
+*{
+margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5cm;
+}
+.container .menu h2{
+  margin: 0%;
+}
+
+        .dropbtn {
+            color: black;
+            padding: 30px;  
+            border: none;
+            cursor: pointer;
+            font-size: 30px;
+        }
+
+        .dropdown {
+
+            position: relative;
+            display: inline-block;
+            background-color: #fff;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            font-size: 20px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+               background-color: rgba(228, 228, 228, 0.904);
+               font-size: 30px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: orange;
+            color: white;
+            
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+          color: orange;
+          background-color: rgba(228, 228, 228, 0.904);
+        }
+        
+        .signUpIn  {
+            padding: 30px;  
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        .signUpIn a { color: orange;}
+.signUpIn :hover{
+    text-decoration: underline;
+}
+.container .content {
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+}
+.orange-bar{
+ width: 200px;
+ height: 2px;
+ background-color: orange;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.home-banner {
+  width: 100%;
+  margin-top: 30px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+.home-banner .banner-image {
+  width: 25%;
+  height: 25%;
+  z-index: 1;
+}
+.home-banner .banner-image img {
+  width: 100%;
+  height: 275px;
+  border: none;
+  display: block;
+  z-index: 1;
+}
+.banner-image{
+
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+}
+
+.banner-image img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.banner-image:hover img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+ .content-boxes {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content-boxes .content-box {
+  width: 250px;
+  height: fit-content;
+}
+.content-boxes .content-box i {
+  color: orange;
+  font-size: 50px;
+  line-height: 70px;
+}
+.content-boxes .content-box .title {
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+}
+.content-boxes .content-box p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: justify;
+}
+.container .content .item2 {
+    width: 350px;
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+  }
+  .container .content .item2 :hover{
+    text-decoration: underline;
+  }
+  
+
+  .container .content .item2 img {
+    width: 100%;
+    height: 170px;
+
+  }
+  .container .row2{
+    display: flex;
+    flex-direction: row;
+}
+.weather {
+  color: #fff;
+  background: linear-gradient(160deg, #07aed3, rgb(248, 191, 85));
+  width: 600px;
+  margin: 100px auto;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.section-bar {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.search-icon {
+  margin-right: 5px;
+  /* position: absolute;
+  left: 0; */
+  width: 50%;
+}
+#search-input {
+  border: 0;
+  outline: 0;
+  padding: 3px 3px 3px 20px;
+  background: transparent;
+  height: 20px;
+  color: #fff;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding: 80px 50px;
+}
+.city-name {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.weather-state {
+  font-size: 13px;
+}
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+.temperature {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.additional-section {
+  border-top: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.additional-section .row {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.additional-section .item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* ngâm cứu thêm */
+}
+
+
+.additional-section .item .label {
+  font-weight: bold;
+} 
