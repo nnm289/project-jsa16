@@ -173,3 +173,30 @@ margin: 0px auto;
     display: flex;
     flex-direction: row;
 }
+.footer{
+  margin-left: 30%;
+  
+}
+
+.footer{
+        padding: 10px;
+        margin-left: 100px;
+        margin-right:100px ;
+        display: flex;
+        flex-direction: row ;
+        
+    }
+    .footer .follow {
+        color: orange;
+        display: flex;
+        flex-direction: row ;
+    }
+    .footer .follow div{
+      padding: 15px;
+    }
+.footer .follow i {
+  margin-top: 20px;
+  color: orange;
+  font-size: 50px;
+  line-height: 70px;
+}
