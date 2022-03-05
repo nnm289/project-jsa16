@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* Home menu bar */
+.home-menu nav .max-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 10px 20px;
+  margin-top: 10px;
+
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.home-menu nav .menu a {
+  margin-left: -15px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: orange;
+  font-size: 20px;
+  letter-spacing: -.5px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-menu nav .max-width .Home-button {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 20px;
+
+}
+
+.home-menu nav .user {
+  max-width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .user a {
+  margin-inline-start: 20px;
+  color: orange;
+  margin-block-end: 20px;
+}
+
+#blackline {
+  height: 1.5px;
+  background-color: orange;
+}
+
+/* Code form Sign In */
+
+form {
+  display: block;
+  text-align: center;
+
+  width: max-content;
+  margin: auto;
+  margin-top: 10vh;
+
+  font-weight: 500;
+  background-color: #fff;
+  padding: 3em 5em;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.row {
+  padding: 10px 30px;
+}
+
+.row input {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+.row button {
+  width: 320px;
+  height: 30px;
+
+  display: inline-block;
+  background: orange;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+
+  transition-duration: 0.4s;
+  border: 2px solid orange;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: orange;
+}
