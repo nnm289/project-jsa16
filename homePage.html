@@ -58,14 +58,14 @@
                 <div class="signUp" style="float:right;">
                     <div class="signUpIn">
                         <a href="./register.html">
-                            <h5>Register</h5>
+                            <h5>Sign up</h5>
                         </a>
                     </div>
                 </div>
                 <div class="signIn" style="float:right;">
                     <div class="signUpIn">
                         <a href="./login.html">
-                            <h5>Login</h5>
+                            <h5>Sign in</h5>
                         </a>
                     </div>
                 </div>
@@ -116,23 +116,31 @@
         <!--Block 2-->
         <div class="content1">
             <div class="content">
-                <h3 style="font-size: 45px; color: #022873;">Must-see sites</h3>
+                <h3 style="font-size: 45px; color: #022873;">Having a check on the weather</h3>
                 <div class="orange-bar"></div>
 
-                <p>Take a look at some of the country's most compelling natural wonders and cultural attractions right
-                    here.
+                <p>Wanna know what is the weather like in your area. Just type in where you at.
                 </p>
             </div>
-            <div class="home-banner">
-                <div class="banner-image"><img
-                        src="https://img.nhandan.com.vn/Files/Images/2021/03/23/40692162_9381807_image_a_23_1616-1616460198504.jpg"
-                        alt=""></div>
-                <div class="banner-image"><img
-                        src="https://vcdn-vnexpress.vnecdn.net/2019/06/26/Fansipan-6678-1561549702.jpg" alt=""></div>
-                <div class="banner-image"><img
-                        src="https://vetauthamvinhhalong.com/wp-content/uploads/2020/05/shutterstock_524159674-1.jpg"
-                        alt=""></div>
-            </div>
+<div class="main-section">
+    <!-- Khối trên -->
+    <div class="section-bar">
+    <i class="fa-solid fa-magnifying-glass"></i>
+            <path fill="currentColor"
+                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+            </path>
+        </svg>
+        <!-- nhúng thanh search -->
+        <input id="search-input" type="text" placeholder="Where are you?">
+    </div>
+    <!-- Thông tin hiển thị -->
+    <div class="info-wrapper">
+        <p class="city-name">..</p>
+        <p class="weather-state">..</p>
+        <img class="weather-icon" src="https://openweathermap.org/img/wn/04n@2x.png" alt="Not found">
+        <p class="temperature">25</p>
+    </div>
+</div>
         </div>
         <!--Block 3-->
         <div class="content1">
@@ -206,7 +214,8 @@
         </div>
 
 
-
+    <script src="./js/index.js"></script>
+    <script src="./js/moment.js"></script>
 </body>
 
 </html>

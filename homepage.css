@@ -173,3 +173,57 @@ margin: 0px auto;
   font-size: 50px;
   line-height: 70px;
 }
+/* Ép kiểu trang web */
+.main-section {
+  color: #fff;
+  background: linear-gradient(90deg, #F2CD5C, #022873);
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+.section-bar {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.search-icon {
+  margin-right: 5px;
+  width: 40px;
+}
+#search-input {
+  border: 0;
+  outline: 0;
+  padding: 3px 3px 3px 20px;
+  background: transparent;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding: 80px 50px;
+}
+.city-name {
+  font-size: 40px;
+  margin-bottom: 3px;
+}
+.weather-state {
+  font-size: 20px;
+}
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+.temperature {
+  font-size: 50px;
+  font-weight: lighter;
+}
